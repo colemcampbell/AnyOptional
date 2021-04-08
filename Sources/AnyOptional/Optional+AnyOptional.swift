@@ -8,7 +8,7 @@
 import Foundation
 
 extension Optional: AnyOptional {
-    var isNil: Bool {
+    public var isNil: Bool {
         self == nil
     }
 }

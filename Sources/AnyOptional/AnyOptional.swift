@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol AnyOptional: ExpressibleByNilLiteral {
+public protocol AnyOptional: ExpressibleByNilLiteral {
     var isNil: Bool { get }
 }
